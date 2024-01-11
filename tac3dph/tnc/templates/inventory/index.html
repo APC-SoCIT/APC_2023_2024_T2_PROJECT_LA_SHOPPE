@@ -1,0 +1,31 @@
+{% extends 'inventory/base.html' %}
+
+
+{% block content %}
+<div>
+    <div class="row">
+        <div class="col-sm-11 col-md-4 mx-auto mt-5 px-3">
+            <h1 class="fw-dark">Manage Product</h1>
+            <p class="fw-light">Be up-to-date with your product amount and receive quantity notifications for low count</p>
+            <div>
+                <a href="{% url 'dashboard' %}" class="btn btn-outline-primary">Let's get started</a>
+            </div>
+        </div> 
+    </div>
+</div>
+
+<br>
+
+<div>
+    <div class="row">
+        <div class="col-sm-11 col-md-4 mx-auto mt-5 px-3">
+            <h1 class="fw-dark">Manage Raw Materials</h1>
+            <p class="fw-light">Ensure you have enough raw materials for crafting and receive notification if low quantity</p>
+            <div>
+                <a href="#" class="btn btn-outline-primary">Let's update the items</a>
+            </div>
+        </div> 
+    </div>
+</div>
+
+{% endblock content %}
